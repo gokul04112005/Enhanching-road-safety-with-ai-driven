@@ -1,0 +1,8 @@
+plt.figure(figsize=(14,6))
+plt.plot(y_test_actual, label='Actual Traffic')
+plt.plot(y_pred, label='Predicted Traffic')
+plt.title('Traffic Volume Prediction')
+plt.xlabel('Time')
+plt.ylabel('Volume')
+plt.legend()
+plt.show()
